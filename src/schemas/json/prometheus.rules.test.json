@@ -72,7 +72,7 @@
         },
         "expr": {
           "description": "PromQL expression to evaluate",
-          "type": "string"
+          "type": ["string", "integer"]
         }
       },
       "required": ["expr", "eval_time"],
